@@ -1,4 +1,4 @@
-===========
+﻿===========
 Localization
 ===========
 
@@ -21,14 +21,14 @@ Currently three modes are supported:
 
 Also three solvers can be utilized:
 1-LSE for least square error
-2-LSE_GC for least square error with geometric constraints. Geometric constraints force the solutions to be in the intesrsection areas of all multilateration circles.
+2-LSE_GC for least square error with geometric constraints. Geometric constraints force the solutions to be in the intersection areas of all multilateration circles.
 3- CCA for centroid method, i.e., the solution will be the centroid of the intersection area. If no common intersection area exist, the area with maximum overlap is used.
 
 To add anchors to the project use:
 
 P.add_anchor(<name>,<loc>)
 
-where name denote user provided lable of the anchor and <loc> is the location of the anchor provided in tuple, e.g., (120,60).
+where name denote user provided label of the anchor and <loc> is the location of the anchor provided in tuple, e.g., (120,60).
 
 To add target use:
 
@@ -41,7 +41,7 @@ Distance measurements must be added to target object like:
 t.add_measure(<anchore_lable>,<measured_distance>)
 
 Finally running P.solve() will locate all targets. You can access the estimated location of the target t by t.loc.
-t,loc is a point object. Point object B has "x","y","z" coordinates available by B.x, B.y, B.z respectively.
+t.loc is a point object. Point object B has "x","y","z" coordinates available by B.x, B.y, B.z respectively.
 
 Install the package by:
 pip install localization
