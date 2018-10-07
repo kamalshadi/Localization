@@ -6,7 +6,7 @@ The current model of the earth, supported by the package, is called `Earth1`.
 Earth1 models the earth as an ideal sphere having radius of 6378.1 kilometers.
 
 ### Installation
-The package should has been tested with python2.7 and python3.6. Use pip to install the package.
+The package has been tested with python2.7 and python3.6. Use pip to install the package:
 ```
 pip install localization
 ```
