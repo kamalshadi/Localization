@@ -3,7 +3,7 @@ from distutils.core import setup
 
 setup(
     name='Localization',
-    version='0.1.5',
+    version='0.1.6',
     author='Kamal Shadi',
     author_email='kamal.shadi85@gmail.com',
     packages=['localization', 'localization.test'],
