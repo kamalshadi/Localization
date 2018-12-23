@@ -1,1 +1,1 @@
-from geoProject import *
+from .geoProject import *

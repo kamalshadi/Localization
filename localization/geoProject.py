@@ -1,6 +1,6 @@
-from geoInterface import *
-from geometry import *
-from methods import *
+from .geoInterface import *
+from .geometry import *
+from .methods import *
 
 
 class Project:
